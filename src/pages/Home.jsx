@@ -6,7 +6,7 @@ import { FaBuilding } from "react-icons/fa";
 import VisionMissionSection from "./VisionMissionSection";
 import { Link } from "react-router-dom";
 import Gallarysection from "./Gallarysection";
-import Testimonials from "./testimonials";
+import Testimonials from "./Testimonials";
 
 
 function Home() {
