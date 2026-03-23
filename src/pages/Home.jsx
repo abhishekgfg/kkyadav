@@ -9,7 +9,7 @@ import Gallarysection from "./Gallarysection";
 import Testimonials from "./Testimonials";
 
 
-function Home() {
+function Home() { 
      const features = [
     "Experienced Team",
     "Industry Expertise",
