@@ -18,10 +18,10 @@ function Home() {
   ];
 
   const clients = [
-  { name: "Company ", logo: <FaBuilding className="w-12 h-12 text-blue-600" /> },
-  { name: "Company ", logo: <FaBuilding className="w-12 h-12 text-green-600" /> },
-  { name: "Company ", logo: <FaBuilding className="w-12 h-12 text-yellow-500" /> },
-  { name: "Company ", logo: <FaBuilding className="w-12 h-12 text-purple-600" /> },
+  { name: "Company A", logo: <FaBuilding className="w-12 h-12 text-blue-600" /> },
+  { name: "Company B", logo: <FaBuilding className="w-12 h-12 text-green-600" /> },
+  { name: "Company C", logo: <FaBuilding className="w-12 h-12 text-yellow-500" /> },
+  { name: "Company D", logo: <FaBuilding className="w-12 h-12 text-purple-600" /> },
 ];
 
   // WhatsApp number
