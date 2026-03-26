@@ -12,10 +12,12 @@ import TermsOfService from "./pages/TermsOfService";
 import Portal from "./pages/Portal";
 import ServicesPage from "./pages/ServicesPage";
 import GalleryPage from "./pages/GalleryPage";
+import { HelmetProvider } from 'react-helmet-async';
 
 export default function App() {
   return (
     <Router>
+      <HelmetProvider>
       <Navbar />
       <ScrollToTop /> {/* ✅ ensures scroll goes to top on every route change */}
       <Routes>
@@ -30,6 +32,7 @@ export default function App() {
         <Route path="/gallery" element={<GalleryPage />} /> {/* catch-all route */}
       </Routes>
       <Footer />
+      </HelmetProvider>
     </Router>
   );
 }
